@@ -37,11 +37,11 @@
     <!-- owl.carousel css -->
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.css') }}">
     <!-- style css -->
-    <link rel="stylesheet" href="{{ asset('style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <!-- responsive css -->
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
     <!-- modernizr js -->
-    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="{{ asset('js/vendor/modernizr-3.11.2.min.js') }}"></script>
 </head>
 
 <body>
@@ -1959,26 +1959,26 @@
 
     <!-- all js here -->
     <!-- jquery latest version -->
-    <script src="js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="js/vendor/jquery-migrate-3.3.2.min.js"></script>
+    <script src="{{ asset('js/vendor/jquery-3.6.0.min.js') }}"></script>
+    <script src="{{ asset('js/vendor/jquery-migrate-3.3.2.min.js') }}"></script>
     <!-- bootstrap js -->
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
     <!-- owl.carousel js -->
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
     <!-- meanmenu js -->
-    <script src="js/jquery.meanmenu.js"></script>
+    <script src="{{ asset('js/jquery.meanmenu.js') }}"></script>
     <!-- nivo.slider JS -->
-    <script src="js/jquery.nivo.slider.pack.js"></script>
+    <script src="{{ asset('js/jquery.nivo.slider.pack.js') }}"></script>
     <!-- simpleLens JS -->
-    <script src="js/jquery.simpleLens.min.js"></script>
+    <script src="{{ asset('js/jquery.simpleLens.min.js') }}"></script>
     <!-- jquery-ui js -->
-    <script src="js/jquery-ui.min.js"></script>
+    <script src="{{ asset('js/jquery-ui.min.js') }}"></script>
     <!-- load-more js -->
-    <script src="js/load-more.js"></script>
+    <script src="{{ asset('js/load-more.js') }}"></script>
     <!-- plugins js -->
-    <script src="js/plugins.js"></script>
+    <script src="{{ asset('js/plugins.js') }}"></script>
     <!-- main js -->
-    <script src="js/main.js"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
 </body>
 
 </html>
